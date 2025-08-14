@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destino</title>
+    <link rel="stylesheet" href="/estilos/destino.css" />
+    <link rel="stylesheet" href="/estilos/mediaqueries_destino.css" />
+    <link
+      rel="shortcut icon"
+      href="Imagens/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div>
+      <header>
+        <a href="index.html"><img src="Imagens/shared/logo.svg" alt="" /></a>
+        <i class="burguer" onclick="clickMenu()">
+          <img src="Imagens/shared/icon-hamburger.svg" alt=""
+        /></i>
+        <nav>
+          <a href="index.html">Ínicio</a>
+          <a href="destino.html">Destino</a>
+          <a href="#">Tripulação</a>
+          <a href="#">Tecnologia</a>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <div class="container-destino">
+        <h1>Escolha seu destino</h1>
+        <iframe src="" frameborder="0" name="planetas" id="planetas"></iframe>
+      </div>
+      <div class="container-escolha">
+        <a href="planetas/lua.html" target="planetas">Lua</a>
+        <a href="planetas/marte.html" target="planetas">Marte</a>
+        <a href="planetas/europa.html" target="planetas">Europa</a>
+        <a href="planetas/tita.html" target="planetas">Titã</a>
+      </div>
+    </main>
+  </body>
+</html>
