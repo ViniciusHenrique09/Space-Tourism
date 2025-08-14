@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url(/./Imagens/home/background-home-desktop.jpg);
+  background-image: url(../Imagens/home/background-home-desktop.jpg);
   background-size: 100% 123%;
   background-position: top center;
   background-repeat: no-repeat;

@@ -5,7 +5,7 @@
 /* laptop*/
 @media screen and (min-width: 910px) and (max-width: 1200px) {
   body {
-    background-image: url(/./Imagens/home/background-home-desktop.jpg);
+    background-image: url(../Imagens/home/background-home-desktop.jpg);
     background-size: 100% 118%;
     background-position: top center;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 910px) {
   body {
-    background-image: url(/./Imagens/home/background-home-tablet.jpg);
+    background-image: url(../Imagens/home/background-home-tablet.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
 /* mobile */
 @media screen and (max-width: 766px) and (min-width: 320px) {
   body {
-    background-image: url(/./Imagens/home/background-home-mobile.jpg);
+    background-image: url(../Imagens/home/background-home-mobile.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
