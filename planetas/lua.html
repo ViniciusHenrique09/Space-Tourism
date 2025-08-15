@@ -9,11 +9,88 @@
       href="../Imagens/favicon-32x32.png"
       type="image/x-icon"
     />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      main {
+        display: flex;
+      }
+      .conteudo {
+        width: 70%;
+        padding-left: 330px;
+        padding-top: 50px;
+      }
+      .conteudo h1 {
+        text-align: left;
+        color: white;
+        font-size: 80px;
+        font-weight: 400;
+        font-family: "Playfair Display", serif;
+      }
+      .conteudo p {
+        color: white;
+        padding-bottom: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: "Sansation", sans-serif;
+        line-height: 30px;
+        text-align: justify;
+      }
+      .conteudo ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+      }
+      .conteudo ul li {
+        color: white;
+        padding: 10px 60px 10px 0px;
+        display: flex;
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Sansation", sans-serif;
+        line-height: 30px;
+        margin-bottom: 10px;
+        flex-direction: column;
+      }
+      .conteudo ul li span {
+        color: rgba(255, 255, 255, 0.548);
+        padding-bottom: 10px;
+        font-size: 17px;
+        font-weight: 300;
+      }
+      img {
+        width: 520px;
+        margin-left: 49px;
+      }
+    </style>
   </head>
   <body>
     <main>
       <div>
         <img src="../Imagens/destination/image-moon.png" alt="Lua" />
+      </div>
+      <div class="conteudo">
+        <h1>LUA</h1>
+        <p>
+          Imagine uma companheira que, a cada ano, se afasta um pouquinho mais,
+          cerca de 3,8 centímetros. Essa é a nossa Lua, que no passado brilhava
+          muito maior em nosso céu. Ela não é tão quieta quanto parece: a
+          gravidade da Terra provoca "tremores lunares" em sua superfície,
+          abalos que podem durar até meia hora. E embora tenha um lado que nunca
+          vemos, não é um "lado escuro", pois o Sol ilumina toda a sua
+          superfície em algum momento. Para completar o mistério, os poucos que
+          a visitaram dizem que seu pó tem um cheiro de pólvora queimada.
+        </p>
+        <ul>
+          <li><span>Distância Média</span>384.400 de Km</li>
+          <li><span>Tempo estimado de viagem</span>3 Dias</li>
+        </ul>
       </div>
     </main>
   </body>
