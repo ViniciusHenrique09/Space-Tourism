@@ -108,36 +108,33 @@
 @media screen and (max-width: 766px) and (min-width: 320px) {
   body {
     background-image: url(../Imagens/destination/background-destination-mobile.jpg);
-    background-size: 136% 345%;
-  }
-  header {
-    padding: 20px;
+    background-size: 100% 1045%;
+    width: 346px;
   }
   .burguer {
     padding-top: 29px;
     z-index: 1;
     display: block;
+    margin-left: 333px;
   }
   .burguer:hover {
     cursor: pointer;
   }
   #itens {
     z-index: 1;
-    display: block;
     position: absolute;
-    top: -90px;
+    top: -100px;
     right: 0;
     left: 0;
     transform: translate(0px, 165px);
     border-radius: 0;
-    display: none;
   }
   header > nav > a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    font-size: 18px;
+    padding: 15px 0 0 0;
+    font-size: 20px;
   }
   header > nav > a::after {
     background: none;
@@ -146,31 +143,35 @@
     width: 50px;
   }
   main {
+    width: 347px;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .container-destino {
-    padding-left: 0;
-    margin: 0;
-    height: 147px;
+    height: 0;
   }
   .container-destino > h1 {
-    font-size: 1.5em;
-    padding: 0 0 20px 0;
+    margin-left: 94px;
+    width: 252px;
+    font-size: 27px;
+    padding: 0 0px 20px 0px;
   }
   #planetas {
+    width: 635px;
     z-index: -1;
-    height: 1090px;
+    height: 1092px;
     padding: 0;
     zoom: 67%;
-    transform: translate(-151px, 10px);
+    transform: translate(0px, 10px);
   }
   .container-escolha {
+    width: 300px;
+    height: 25px;
     padding: 0;
-    transform: translate(0px, 200px);
+    transform: translate(85px, 350px);
   }
   .container-escolha a {
+    padding: 0 10px 10px 0;
     font-size: 23px;
   }
 }
