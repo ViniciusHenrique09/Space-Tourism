@@ -21,7 +21,7 @@
         <i class="burguer" onclick="clickMenu()">
           <img src="Imagens/shared/icon-hamburger.svg" alt=""
         /></i>
-        <nav>
+        <nav id="itens">
           <a href="index.html">Ínicio</a>
           <a href="destino.html">Destino</a>
           <a href="#">Tripulação</a>
@@ -46,5 +46,14 @@
         <a href="planetas/tita.html" target="planetas">Titã</a>
       </div>
     </main>
+    <script>
+      function clickMenu() {
+        if (itens.style.display === "block") {
+          itens.style.display = "none";
+        } else {
+          itens.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>

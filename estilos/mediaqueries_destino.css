@@ -100,3 +100,73 @@
     font-size: 35px;
   }
 }
+/* mobile */
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  body {
+    background-image: url(../Imagens/destination/background-destination-mobile.jpg);
+    background-size: 136% 345%;
+  }
+  header {
+    padding: 20px;
+  }
+  .burguer {
+    padding-top: 29px;
+    z-index: 1;
+    display: block;
+  }
+  .burguer:hover {
+    cursor: pointer;
+  }
+  #itens {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    top: -90px;
+    right: 0;
+    left: 0;
+    transform: translate(0px, 165px);
+    border-radius: 0;
+    display: none;
+  }
+  header > nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+  }
+  header > nav > a::after {
+    background: none;
+  }
+  .logo {
+    width: 50px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-destino {
+    padding-left: 0;
+    margin: 0;
+    height: 147px;
+  }
+  .container-destino > h1 {
+    font-size: 1.5em;
+    padding: 0 0 20px 0;
+  }
+  #planetas {
+    z-index: -1;
+    height: 1090px;
+    padding: 0;
+    zoom: 67%;
+    transform: translate(-151px, 10px);
+  }
+  .container-escolha {
+    padding: 0;
+    transform: translate(0px, 200px);
+  }
+  .container-escolha a {
+    font-size: 23px;
+  }
+}

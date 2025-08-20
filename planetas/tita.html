@@ -126,11 +126,56 @@
           font-size: 18px;
         }
       }
+      /* mobile */
+      @media screen and (max-width: 766px) and (min-width: 320px) {
+        body {
+          position: fixed;
+        }
+        main {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .container-tita {
+          transform: translateX(-24px);
+        }
+        img {
+          width: 360px;
+          padding-top: 5px;
+        }
+        .conteudo {
+          width: 100%;
+          padding: 100px 20px 0 20px;
+        }
+        .conteudo h1 {
+          text-align: center;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          font-size: 5em;
+        }
+        .conteudo p {
+          font-size: 22px;
+        }
+        .conteudo ul {
+          display: flex;
+          list-style: none;
+          padding: 0;
+          justify-content: space-evenly;
+        }
+        .conteudo ul li {
+          font-size: 30px;
+
+          padding: 0 20px 20px 0;
+        }
+        .conteudo ul li span {
+          font-size: 24px;
+        }
+      }
     </style>
   </head>
   <body>
     <main>
-      <div>
+      <div class="container-tita">
         <img
           class="tita"
           src="../Imagens/destination/image-titan.png"
