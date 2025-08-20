@@ -56,48 +56,52 @@
 @media screen and (min-width: 768px) and (max-width: 910px) {
   body {
     background-image: url(../Imagens/destination/background-destination-tablet.jpg);
-    background-size: 100% 551%;
+    background-size: 100% 937%;
+    width: 0;
   }
   .burguer {
     display: none;
   }
   nav {
-    padding: 50px 0px 50px 30px;
-    margin: -50px -50px 0 0;
-    border-radius: 0px 0 0 20px;
+    display: flex;
+    margin-left: 192px;
+    padding: 10px 0 10px 0;
+    border-radius: 20px 0 0 20px;
   }
   .logo {
-    margin-top: -40px;
+    margin-right: 39px;
     width: 60px;
   }
   main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
   .container-destino {
-    padding-left: 0;
-    margin: 0;
-    height: 77px;
+    width: 100vw;
+    height: 0px;
   }
   .container-destino > h1 {
-    font-size: 2.5em;
-    padding-left: 30px;
-    transform: translateX(-185px);
+    text-align: center;
+    padding: 0 0 20px 0;
+    font-size: 3.5em;
   }
   #planetas {
-    height: 1290px;
-    width: 900px;
-    padding: 0;
+    height: 1315px;
+    width: 850px;
+    padding-left: 0;
     zoom: 90%;
-    transform: translate(-213px, 10px);
   }
   .container-escolha {
+    height: 45px;
+    display: flex;
     padding: 0;
-    transform: translate(30px, 650px);
+    transform: translate(140px, 650px);
+    align-items: center;
   }
   .container-escolha a {
-    font-size: 35px;
+    padding: 0 10px;
+    font-size: 45px;
   }
 }
 /* mobile */
