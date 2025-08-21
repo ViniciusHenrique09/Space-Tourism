@@ -1,0 +1,198 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../Imagens/crew/background-crew-desktop.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.burguer {
+  display: none;
+}
+nav {
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  padding: 30px 100px 30px 90px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+header > nav > a {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: Sansation;
+  font-weight: 300;
+  position: relative;
+  transition: color 0.2s;
+}
+header > nav > a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+header > nav > a:hover {
+  color: #ffd700; /* muda a cor do texto ao passar o mouse */
+}
+header > nav > a:hover::after {
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+main > h1 {
+  color: rgba(255, 255, 255, 0.945);
+  font-family: Sansation, sans-serif;
+  font-weight: 400;
+  margin-left: 190px;
+  font-size: 50px;
+}
+.slider {
+  margin-left: 190px;
+  width: 1700px;
+  height: 792px;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  height: 712px;
+  width: 400%;
+}
+.slides input {
+  display: none;
+}
+.slide {
+  width: 1700px;
+  height: 700px;
+  margin-top: 100px;
+}
+.slide span {
+  color: rgba(255, 255, 255, 0.705);
+  font-family: Space mono;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.slide h1 {
+  color: white;
+  font-family: Space mono;
+  font-weight: 400;
+  width: 600px;
+  font-size: 4em;
+  margin-top: 10px;
+}
+.slide p {
+  color: rgba(255, 255, 255, 0.705);
+  font-family: Sansation;
+  font-size: 1.3em;
+  line-height: 35px;
+  width: 570px;
+  text-align: justify;
+  margin-top: 20px;
+}
+.ansari {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 200px;
+  transform: translate(150px, -303px);
+  zoom: 120%;
+}
+.douglas {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 200px;
+  transform: translate(150px, -303px);
+  zoom: 120%;
+}
+.victor {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 200px;
+  transform: translate(150px, -303px);
+  zoom: 120%;
+}
+.mark {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 200px;
+  transform: translate(150px, -303px);
+  zoom: 120%;
+}
+.manual-navigation {
+  position: absolute;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn {
+  background-color: rgba(255, 255, 255, 0.192);
+  border: 2px solid rgba(255, 255, 255, 0.445);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+.manual-btn:hover {
+  background-color: white;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+#radio4:checked ~ .first {
+  margin-left: -75%;
+}
+.navigation-auto div {
+  border: 2px solid rgba(0, 0, 255, 0);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.navigation-auto {
+  position: absolute;
+  margin-top: 672px;
+  display: flex;
+  justify-content: center;
+}
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: white;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background-color: white;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background-color: white;
+}

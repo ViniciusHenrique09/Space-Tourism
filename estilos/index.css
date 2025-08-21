@@ -10,8 +10,8 @@
 
 body {
   background-image: url(../Imagens/home/background-home-desktop.jpg);
-  background-size: 100% 123%;
-  background-position: top center;
+  background-size: cover;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+  padding: 10px;
 }
 .burguer {
   display: none;
