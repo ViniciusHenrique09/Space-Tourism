@@ -4,8 +4,6 @@
 
 /* laptop*/
 @media screen and (min-width: 910px) and (max-width: 1200px) {
-  body {
-  }
   header {
     padding: 30px;
   }
