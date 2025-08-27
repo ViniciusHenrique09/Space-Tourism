@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecnologia</title>
+    <link rel="stylesheet" href="./estilos/tecnologia.css" />
+    <link
+      rel="shortcut icon"
+      href="Imagens/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="Imagens/shared/logo.svg" alt="Logo"
+      /></a>
+      <i class="burguer" onclick="clickMenu()">
+        <img src="Imagens/shared/icon-hamburger.svg" alt=""
+      /></i>
+      <nav id="itens">
+        <a href="index.html">Início</a>
+        <a href="destino.html">Destino</a>
+        <a href="tripulação.html">Tripulação</a>
+        <a href="tecnologia.html">Tecnologia</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Lançamento Espacial</h1>
+      <div class="slider">
+        <div class="slides">
+          <input type="button" value="1" name="btn" id="btn1" />
+          <input type="button" value="2" name="btn" id="btn2" />
+          <input type="button" value="3" name="btn" id="btn3" />
+          <div class="slide first">
+            <span>A Terminologia</span>
+            <h1>Cápsula Espacial</h1>
+            <p>
+              Uma cápsula espacial é uma espaçonave frequentemente tripulada que
+              usa uma cápsula de reentrada de corpo rombudo para reentrar na
+              atmosfera da Terra sem asas. Nossa cápsula é onde você passará seu
+              tempo durante o voo. Ela inclui uma academia espacial, cinema e
+              muitas outras atividades para mantê-lo entretido.
+            </p>
+            <div class="capsula">
+              <img
+                src="Imagens/technology/image-space-capsule-portrait.jpg"
+                alt="Cápsula Espacial"
+              />
+            </div>
+          </div>
+          <div class="slide">
+            <span>A Terminologia</span>
+            <h1>Porto Espacial</h1>
+            <p>
+              Um porto espacial ou cosmódromo é um local para lançamento (ou
+              recebimento) de espaçonaves, por analogia ao porto marítimo para
+              navios ou aeroporto para aeronaves. Baseado no famoso Cabo
+              Canaveral, nosso porto espacial está idealmente situado para
+              aproveitar a rotação da Terra para o lançamento.
+            </p>
+            <div class="porto">
+              <img
+                src="Imagens/technology/image-spaceport-portrait.jpg"
+                alt="Porto Espacial"
+              />
+            </div>
+          </div>
+          <div class="slide">
+            <span>A Terminologia</span>
+            <h1>Veículo de Lançamento</h1>
+            <p>
+              Um veículo de lançamento ou foguete transportador é um veículo
+              movido a foguete usado para transportar uma carga útil da
+              superfície da Terra para o espaço, geralmente para a órbita da
+              Terra ou além.Do nosso foguete transportador WEB-X é o mais
+              poderoso em operação. Com 150 metros de altura, é uma visão
+              bastante inspiradora na plataforma de lançamento!
+            </p>
+            <div class="veiculo">
+              <img
+                src="Imagens/technology/image-launch-vehicle-portrait.jpg"
+                alt="Veículo de Lançamento"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+      </div>
+      <div class="manual-navigation">
+        <label for="btn1" class="manual-btn"></label>
+        <label for="btn2" class="manual-btn"></label>
+        <label for="btn3" class="manual-btn"></label>
+      </div>
+    </main>
+    <script>
+      function clickMenu() {
+        if (itens.style.display === "block") {
+          itens.style.display = "none";
+        } else {
+          itens.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
