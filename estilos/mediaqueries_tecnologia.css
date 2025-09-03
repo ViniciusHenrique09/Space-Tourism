@@ -87,3 +87,122 @@
     margin-top: -37.6%;
   }
 }
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 910px) {
+  body {
+    background-image: url(../Imagens/crew/background-crew-tablet.jpg);
+  }
+  .burguer {
+    display: none;
+  }
+  nav {
+    display: flex;
+    margin-left: 192px;
+    padding: 10px 0 10px 0;
+    border-radius: 20px 0 0 20px;
+  }
+  .logo {
+    margin-right: 39px;
+    width: 60px;
+  }
+  main > h1 {
+    font-size: 27px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .slider {
+    transform: translateX(-191px);
+    display: flex;
+    width: 769px;
+    height: 618px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slides {
+    margin-top: -220px;
+    display: flex;
+    height: 712px;
+    width: 100%;
+  }
+  .slide {
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 829px;
+    margin-top: -132px;
+    margin-left: -249px;
+  }
+  .slide span {
+    font-size: 20px;
+    margin-left: -350px;
+    transform: translate(10px, -250px);
+  }
+  .slide h1 {
+    font-size: 2.2em;
+    margin-left: 55px;
+    transform: translate(10px, -160px);
+  }
+  .slide p {
+    margin: auto;
+    font-size: 1.1em;
+    line-height: 29px;
+    width: 550px;
+    margin-top: 20px;
+    transform: translate(10px, 42px);
+  }
+  #span-veiculo {
+    transform: translate(10px, -280px);
+  }
+  #h1-veiculo {
+    transform: translate(55px, -195px);
+  }
+  .capsula img {
+    margin-left: -6500px;
+  }
+  .capsula {
+    zoom: 100%;
+    background-image: url(../Imagens/technology/image-space-capsule-landscape.jpg);
+    background-repeat: no-repeat;
+    transform: translate(60px, 190px);
+  }
+  .porto img {
+    margin-left: -6500px;
+  }
+  .porto {
+    zoom: 100%;
+    background-image: url(../Imagens/technology/image-spaceport-landscape.jpg);
+    background-repeat: no-repeat;
+    transform: translate(60px, 190px);
+  }
+  .veiculo img {
+    margin-left: -6500px;
+  }
+  .veiculo {
+    zoom: 101%;
+    background-image: url(../Imagens/technology/image-launch-vehicle-landscape.jpg);
+    background-repeat: no-repeat;
+    transform: translate(60px, 190px);
+  }
+  .manual-navigation {
+    transform: translate(230px, 59px);
+    flex-direction: row;
+    font-size: 0.9em;
+    margin-top: 625px;
+  }
+  .manual-btn {
+    zoom: 80%;
+    margin-left: 25px;
+    height: -1px;
+    width: -1px;
+    padding: 30px;
+  }
+  #radio1:checked ~ .first {
+    margin-top: -17.2%;
+  }
+  #radio2:checked ~ .first {
+    margin-top: -98.5%;
+  }
+  #radio3:checked ~ .first {
+    margin-top: -175%;
+  }
+}
