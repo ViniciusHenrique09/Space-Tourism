@@ -206,3 +206,122 @@
     margin-top: -175%;
   }
 }
+/* mobile */
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  body {
+    background-image: url(../Imagens/technology/background-technology-mobile.jpg);
+  }
+  .burguer {
+    padding-top: 29px;
+    z-index: 1;
+    display: block;
+    margin-left: 33px;
+  }
+  .burguer:hover {
+    cursor: pointer;
+  }
+  #itens {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: -100px;
+    right: 0;
+    left: 0;
+    transform: translate(0px, 165px);
+    border-radius: 0;
+  }
+  header > nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 0 0;
+    font-size: 20px;
+  }
+  header > nav > a::after {
+    background: none;
+  }
+  .logo {
+    width: 50px;
+  }
+  main > h1 {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .slider {
+    background-color: red;
+    transform: translate(-350px, -20px);
+    width: 585px;
+    height: 748px;
+  }
+  .slides {
+    margin-top: 337px;
+    display: flex;
+    height: 712px;
+    width: 100%;
+  }
+  .slide {
+    margin-top: 60px;
+  }
+  .slide span {
+    margin-left: 55px;
+    font-size: 15px;
+  }
+  .slide h1 {
+    margin-left: -120px;
+    text-align: center;
+    font-size: 2em;
+  }
+  .slide p {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 29px;
+    width: 351px;
+    margin-top: 20px;
+  }
+  .capsula {
+    transform: translate(-40px, -930px);
+    background-repeat: no-repeat;
+    zoom: 75%;
+    background-image: url(../Imagens/technology/image-space-capsule-landscape.jpg);
+  }
+  .capsula img {
+    margin-left: -6500px;
+  }
+  .porto {
+    background-image: url(../Imagens/technology/image-spaceport-landscape.jpg);
+    background-repeat: no-repeat;
+    zoom: 75%;
+    transform: translate(-40px, -932px);
+  }
+  .porto img {
+    margin-left: -6500px;
+  }
+  #radio1:checked ~ .first {
+    margin-top: -22%;
+  }
+  #radio2:checked ~ .first {
+    margin-top: -155%;
+  }
+  #radio3:checked ~ .first {
+    margin-top: -230%;
+  }
+  .navigation-auto {
+    margin-left: 87px;
+    margin-top: 9px;
+  }
+  .manual-navigation {
+    transform: translate(90px, -265px);
+    flex-direction: row;
+    font-size: 0.9em;
+    margin-top: 625px;
+  }
+  .manual-btn {
+    zoom: 80%;
+    margin-left: 25px;
+    height: -1px;
+    width: -1px;
+    padding: 30px;
+  }
+}
